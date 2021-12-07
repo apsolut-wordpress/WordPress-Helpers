@@ -22,7 +22,7 @@
  1. open your theme location YOURSITE/wp-content/themes/YOURTHEME/functions.php
  2. add this code:
 
-     ```// functions.php
+    // functions.php
     function wds_algolia_exclude_post_types( $post_types ) {
 
 	// Ignore these post types.
@@ -40,8 +40,7 @@
 
 	return $post_types;
     }
-    add_filter( 'algolia_searchable_post_types', 'wds_algolia_exclude_post_types' );```
-
+    add_filter( 'algolia_searchable_post_types', 'wds_algolia_exclude_post_types' );
 
 
 ## Extra help
