@@ -43,6 +43,11 @@
     add_filter( 'algolia_searchable_post_types', 'wds_algolia_exclude_post_types' );
 
 
+## Testing
+1. Lets say Twenty Twenty-One theme
+1. Go to: YOURSITE/s?=post
+
+
 ## Extra help
 
 1. [Plugin github](https://github.com/WebDevStudios/wp-search-with-algolia)
