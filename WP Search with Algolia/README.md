@@ -40,7 +40,7 @@
 
 	return $post_types;
     }
-    add_filter( 'algolia_searchable_post_types', 'wds_algolia_exclude_post_types' );```
+    add_filter( 'algolia_searchable_post_types', 'wds_algolia_exclude_post_types' );
 
 
 ## Extra help
