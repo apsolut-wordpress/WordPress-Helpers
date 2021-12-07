@@ -23,7 +23,7 @@
  2. add this code:
 
      ```// functions.php
-function wds_algolia_exclude_post_types( $post_types ) {
+    function wds_algolia_exclude_post_types( $post_types ) {
 
 	// Ignore these post types.
 	//unset( $post_types['acf-field_group'] );
@@ -39,8 +39,8 @@ function wds_algolia_exclude_post_types( $post_types ) {
 	unset( $post_types['movies'] ); // This will be excluded from Search 
 
 	return $post_types;
-}
-add_filter( 'algolia_searchable_post_types', 'wds_algolia_exclude_post_types' );```
+    }
+    add_filter( 'algolia_searchable_post_types', 'wds_algolia_exclude_post_types' );```
 
 
 
