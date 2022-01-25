@@ -9,6 +9,7 @@ Helpers for Plugins, Themes - Quick &amp; Easy
 | Carbon Fields      | Description  |
 | FacetWP      | Description  |
 | Git Updater      | Description  |
+| [Gutenberg learning](Gutenberg%20learning/README.md)     | Learning, Examples  |
 | Gravity Forms      | Description  |
 | WPML      | Description  |
 | WooCommerce      | Description  |
